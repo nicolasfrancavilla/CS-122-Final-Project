@@ -1,5 +1,7 @@
 CATEGORY: Appetizer
-ekfnsdjbds
+Item: dsf Price: 12.0 Calories: 12 Vegan: true Gluten: true
+Item: yay Price: 233.0 Calories: 49848 Vegan: false Gluten: false
 CATEGORY: Entree
+Item: erfh Price: 1300.0 Calories: 1200 Vegan: false Gluten: false
 CATEGORY: Dessert
 CATEGORY: Drinks

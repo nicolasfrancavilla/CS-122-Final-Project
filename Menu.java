@@ -1,4 +1,3 @@
-
 public class Menu {
 
     protected String item;
@@ -11,35 +10,22 @@ public class Menu {
         this.item = item;
         this.price = price;
         this.calories = calories;
+        this.isVegan = isVegan;      
+        this.hasGluten = hasGluten;  
     }
 
-    public String getItem() {
-        return item;
-    }
-
-    public float getPrice() {
-        return price;
-    }
-
-    public int getCal() {
-        return calories;
-    }
-
-    public boolean getIsVegan() {
-        return isVegan;
-    }
-
-    public void setIsVegan(boolean vegan) {
-        isVegan = vegan;
-    }
-
-    public void sethasGluten(boolean gluten) {
-        hasGluten = gluten;
-    }
+    public String getItem() { return item; }
+    public float getPrice() { return price; }
+    public int getCal() { return calories; }
+    public boolean getIsVegan() { return isVegan; }
+    public boolean getHasGluten() { return hasGluten; }
 
     @Override
     public String toString() {
-        return ("Item: " + item + " Price: " + price + " Calories: " + calories + " Vegan: " + isVegan + " Gluten: "
-                + hasGluten);
+        return "Item: " + item +
+               " Price: " + price +
+               " Calories: " + calories +
+               " Vegan: " + isVegan +
+               " Gluten: " + hasGluten;
     }
 }
